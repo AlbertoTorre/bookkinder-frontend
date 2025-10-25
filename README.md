@@ -13,7 +13,7 @@ El frontend estará disponible en: `http://localhost:3000`
 
 ## Desarrollo Local - Pre-requisito: Tener node instalado en tu maquina
 
-Para desarrollo local, asegúrate de tener Node.js 18+ instalado:
+Para desarrollo local, asegúrate de tener Node.js 22+ instalado:
 
 1. Instalar dependencias:
 ```bash
