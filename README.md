@@ -1,75 +1,28 @@
-# Nuxt Minimal Starter
+# Bookkinder Frontend
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Docker Compose
 
-## Setup
-
-Make sure to install dependencies:
+Para levantar el proyecto con Docker Compose:
 
 ```bash
-# npm
-npm install
+docker-compose up -d
+```
 
-# pnpm
+El frontend estará disponible en: `http://localhost:3000`
+
+
+## Desarrollo Local - Pre-requisito: Tener node instalado en tu maquina
+
+Para desarrollo local, asegúrate de tener Node.js 18+ instalado:
+
+1. Instalar dependencias:
+```bash
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+2. Iniciar servidor de desarrollo:
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+El frontend estará disponible en: `http://localhost:3000`
